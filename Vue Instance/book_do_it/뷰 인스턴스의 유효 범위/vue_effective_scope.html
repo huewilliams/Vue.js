@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>뷰 인스턴스 유효범위</title>
+</head>
+<body>
+    <!-- 인스턴스의 유효 범위는 el 속성으로 지정한 id=app 태그 아래의 요소들로 제한된다. -->
+    <div id="app">
+        {{ message }}
+    </div>
+    <!-- 따라서 div 태그 밖의 {{message}}는 뷰에서 인식하지 못하고 그대로 출력된다. -->
+    {{ message }}
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue.js!'
+            }
+        })
+    </script>
+</body>
+</html>
