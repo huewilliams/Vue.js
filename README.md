@@ -19,6 +19,7 @@ progressive learning of vue.js
 ### Vue Component
 * [컴포넌트란?](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/ReadMe.md)
 * [전역 컴포넌트 등록](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EC%A0%84%EC%97%AD%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%93%B1%EB%A1%9D/global_component.html)
+* [지역 컴포넌트 등록](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EC%A7%80%EC%97%AD%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%93%B1%EB%A1%9D/local_component.html)
 
 ### Vue Router  
 
