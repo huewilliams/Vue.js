@@ -17,6 +17,7 @@ progressive learning of vue.js
 * [뷰 인스턴스 라이프 사이클 예제](https://github.com/huewilliams/everything-of-vue.js/tree/master/Vue%20Instance/book_do_it/%EB%B7%B0%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EB%9D%BC%EC%9D%B4%ED%94%84%20%EC%82%AC%EC%9D%B4%ED%81%B4)
 
 ### Vue Component
+* [컴포넌트란?](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/ReadMe.md)
 
 ### Vue Router  
 
