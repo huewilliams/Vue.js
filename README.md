@@ -27,6 +27,8 @@ progressive learning of vue.js
 * [컴포넌트 간 통신의 유효범위](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B0%84%20%ED%86%B5%EC%8B%A0%EC%9D%98%20%EC%9C%A0%ED%9A%A8%20%EB%B2%94%EC%9C%84/component_scope.html)
 * [상위에서 하위 컴포넌트로 데이터 전달](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EC%83%81%EC%9C%84%EC%97%90%EC%84%9C%20%ED%95%98%EC%9C%84%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EB%8B%AC%ED%95%98%EA%B8%B0/props_property.html)
 * [하위에서 상위 컴포넌트로 이벤트 전달](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%ED%95%98%EC%9C%84%EC%97%90%EC%84%9C%20%EC%83%81%EC%9C%84%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%A1%9C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%A0%84%EB%8B%AC/event_emit%26v-on.html)
+* [관계 없는 컴포넌트 간 통신-데이터버스](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EA%B4%80%EA%B3%84%20%EC%97%86%EB%8A%94%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B0%84%20%ED%86%B5%EC%8B%A0(event-bus)/event_bus.html)
+
 ### Vue Router  
 
 ### Vue HTTP connect  
