@@ -21,6 +21,7 @@ progressive learning of vue.js
 * [전역 컴포넌트 등록](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EC%A0%84%EC%97%AD%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%93%B1%EB%A1%9D/global_component.html)
 * [지역 컴포넌트 등록](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EC%A7%80%EC%97%AD%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%93%B1%EB%A1%9D/local_component.html)
 * [전역과 지역 컴포넌트의 차이](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EC%A0%84%EC%97%AD%EA%B3%BC%20%EC%A7%80%EC%97%AD%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%9D%98%20%EC%B0%A8%EC%9D%B4/two_components.html)
+* [컴포넌트 간 통신의 유효범위](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B0%84%20%ED%86%B5%EC%8B%A0%EC%9D%98%20%EC%9C%A0%ED%9A%A8%20%EB%B2%94%EC%9C%84/component_scope.html)
 
 ### Vue Router  
 
