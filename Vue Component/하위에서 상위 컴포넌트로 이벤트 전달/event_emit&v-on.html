@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 발생과 수신</title>
+</head>
+<body>
+    <div id="app">
+        <!-- v-on:이벤트 명="상위 컴포넌트의 메서드 명"-->
+        <!-- v-on 속성으로 이벤트를 수신함 -->
+        <child-component v-on:show-log="printText"></child-component>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        Vue.component('child-component',{
+            // click 이벤트 발생 시 상위 컴포넌트의 showLog 메서드 실행
+            // 생성된 컴포넌트는 생성한 인스턴스의 하위 컴포넌트이다.
+            template: '<button v-on:click="showLog">Show</button>',
+            methods: {
+                showLog: function () {
+                    // 이벤트 발생 로직
+                    this.$emit('show-log');
+                }
+            }
+        });
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue! passed from Parent Component'
+            },
+            methods: {
+                printText: function () {
+                    console.log('received an event');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
