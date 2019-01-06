@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Nested Router</title>
+</head>
+<body>
+    <div id="app">
+        <!-- User 컴포넌트가 뿌려질 영역 -->
+        <router-view></router-view>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router@3.0.1/dist/vue-router.js"></script>
+    <script>
+        var User = {
+            template: `
+                <div>
+                    User Component
+                    <router-view></router-view>
+                </div>
+            `
+        };
+
+        var UserProfile = { template: '<p>User Profile Component</p>'};
+        var UserPost = { template: '<p>User Post Component</p>'};
+
+        var routes = [
+            {
+                path: '/user',
+                component: User,
+                // 네스티드 라우팅 정의
+                children: [
+                    {
+                        path: 'profile',
+                        component: UserProfile
+                    },
+                    {
+                        path: 'post',
+                        component: UserPost
+                    },
+                ]
+            }
+        ];
+
+        // 뷰 라우터 정의
+        var router = new VueRouter({
+            routes
+        });
+
+        // 뷰 인스턴스에 라우터 추가
+        var app = new Vue({
+            router
+        }).$mount('#app');
+    </script>
+</body>
+</html>
