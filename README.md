@@ -31,6 +31,7 @@ progressive learning of vue.js
 
 ### Vue Router  
 * [뷰 라우터 예제](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Router/vue_router.html)
+* [네스티드 라우터](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Router/nested_router.html)
 ### Vue HTTP connect  
 
 ### Vue Template
