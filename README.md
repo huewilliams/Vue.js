@@ -30,7 +30,7 @@ progressive learning of vue.js
 * [관계 없는 컴포넌트 간 통신-데이터버스](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Component/%EA%B4%80%EA%B3%84%20%EC%97%86%EB%8A%94%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EA%B0%84%20%ED%86%B5%EC%8B%A0(event-bus)/event_bus.html)
 
 ### Vue Router  
-
+* [뷰 라우터 예제](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Router/vue_router.html)
 ### Vue HTTP connect  
 
 ### Vue Template
