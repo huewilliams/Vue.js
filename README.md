@@ -34,5 +34,6 @@ progressive learning of vue.js
 * [네스티드 라우터](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Router/nested_router.html)
 * [네임드 뷰](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Router/named_view.html)
 ### Vue HTTP connect  
+* [뷰 리소스](https://github.com/huewilliams/everything-of-vue.js/blob/master/HTTP_connect/vue_resource.html)
 
 ### Vue Template
