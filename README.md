@@ -40,3 +40,4 @@ progressive learning of vue.js
 [데이터 바인딩]
 * [{{ }} : template syntax](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/data_binding/template_syntax.html)
 * [v-once : 한번만 바인딩하는 속성](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/data_binding/v_once.html)
+* [v-bind : HTML 속성과 뷰 데이터 바인딩 속성](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/data_binding/v-bind.html)
