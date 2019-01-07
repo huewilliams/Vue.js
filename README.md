@@ -44,4 +44,6 @@ progressive learning of vue.js
   
 [자바스크립트 표현식 사용]
 * [use javascript expressions in vue template](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/javascript_expressions/template%2Bexpressions.html)
-* [자바스크립트 표현식 사용시 주의점](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/javascript_expressions/expressions_precautions.html)
+* [자바스크립트 표현식 사용시 주의점](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/javascript_expressions/expressions_precautions.html)  
+  
+[]
