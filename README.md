@@ -35,5 +35,5 @@ progressive learning of vue.js
 * [네임드 뷰](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Router/named_view.html)
 ### Vue HTTP connect  
 * [뷰 리소스](https://github.com/huewilliams/everything-of-vue.js/blob/master/HTTP_connect/vue_resource.html)
-
+* [Axios GET](https://github.com/huewilliams/everything-of-vue.js/blob/master/HTTP_connect/Axios/GET/axios_get.html)
 ### Vue Template
