@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>뷰 템플릿에서 자바스크립트 표현식 적용</title>
+</head>
+<body>
+    <div id="app">
+        <!--
+        뷰 템플릿에서 자바스크립트 표현식을 사용하려면 데이터 바인딩 방식 중 하나인 {{ }} 내부에
+        자바스크립트 표현식을 넣으면 된다.
+        -->
+        <p>{{ message }}</p>
+        <!-- 문자열 뒤에 !!! 추가하여 출력 -->
+        <p>{{ message + "!!!"}}</p>
+        <!-- 문자열 역순 출력 -->
+        <p>{{ message.split('').reverse().join('') }}</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue.js!'
+            }
+        })
+    </script>
+</body>
+</html>
