@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>computed 속성</title>
+</head>
+<body>
+    <div id="app">
+        <p>{{ reversedMessage }}</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'hello Vue.js!'
+            },
+            // 복잡한 연산은 뷰 인스턴스 내부에서 하고 HTML은 데이터를 표현만 해야함
+            // computed 장점 #1 : data 속성 값의 변화에 따라 자동으로 다시 연산한다.
+            // computed 장점 #2 : 캐싱 - 값을 가지고 있어서 여러 곳에서 표현할 시 반복작업이 필요없다.
+            computed: {
+                reversedMessage: function () {
+                    return this.message.split('').reverse().join('');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
