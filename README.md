@@ -48,3 +48,6 @@ progressive learning of vue.js
   
 [디렉티브]
 * [대표적인 디렉티브](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/vue_directive/vue_directive.html)  
+
+[이벤트 처리]  
+* [v-on으로 이벤트 처리](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Event/v-on.html)
