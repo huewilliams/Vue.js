@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>watch 속성</title>
+</head>
+<body>
+    <div id="app">
+        <!-- v-model : 화면 단의 데이터와 스크립트 단의 데이터를 동기화 함-->
+        <input v-model="message">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue.js!'
+            },
+            // watch 속성 : 데이터 변화를 감지하여 자동으로 특정 로직을 수행함
+            // v-model 로 연결한 입력 값이 바뀔 때마다 연산이 수행됨
+            watch: {
+                message: function (data) {
+                    console.log('message 값이 바뀝니다 : ',data);
+                }
+            }
+        })
+    </script>
+</body>
+</html>
