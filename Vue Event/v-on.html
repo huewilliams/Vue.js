@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-on 디렉티브</title>
+</head>
+<body>
+    <div id="app">
+        <button v-on:click="clickBtn">클릭</button>
+    </div>
+</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el:'#app',
+            methods : {
+                clickBtn : function () {
+                    alert('clicked');
+                }
+            }
+        })
+    </script>
+</html>
