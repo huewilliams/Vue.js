@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>event 인자로 돔 요소에 접근</title>
+</head>
+<body>
+    <div id="app">
+        <button v-on:click="clickBtn">클릭</button>
+    </div>
+</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el:'#app',
+            methods: {
+                clickBtn: function (event) {
+                    // event 인자로 돔 이벤트 객체에 접근 가능
+                    console.log(event);
+                }
+            }
+        })
+    </script>
+</html>
