@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>computed 속성과 methods 속성의 차이점</title>
+</head>
+<body>
+    <div id="app">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMsg">문자열 역순</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el:'#app',
+            data: {
+                message: 'Vue.js is very simple'
+            },
+            // methods 와 computed 속성의 차이점은 computed 속성은 data 값이 변경되면 자동으로 수행하지만,
+            // methods는 호출될 때만 처리하므로 수동적이다.
+
+            // 또한 computed 속성은 계산 값을 저장하다가 넘겨주므로 캐싱을 지원하지만
+            // methods 는 호출 될 때마다 연산을 수행하므로 캐싱을 하지 않는다.
+            // 따라서 복잡한 연산이 반복적으로 발생한다면 computed 속성이 더 효율적이다.
+            methods: {
+                reverseMsg: function () {
+                    this.message = this.message.split('').reverse().join('');
+                    return this.message;
+                }
+            }
+        })
+    </script>
+</body>
+</html>
