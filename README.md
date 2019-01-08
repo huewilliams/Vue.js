@@ -56,3 +56,4 @@ progressive learning of vue.js
   
 [고급 템플릿 기법]
 * [computed 속성](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/advanced_template/computed_property.html)
+* [computed 속성과 methods 속성의 차이](https://github.com/huewilliams/everything-of-vue.js/blob/master/Vue%20Template/advanced_template/methods%26computed.html)
